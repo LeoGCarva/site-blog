@@ -10,7 +10,7 @@ export function CustomerSection() {
           </h2>
         </span>
 
-        <div className="grid grid-cols-2 gap-6">
+        <div className="grid md:grid-cols-2 gap-6 grid-cols-1">
           <div className="relative flex flex-col bg-gray-600 text-gray-200 p-10 rounded-xl gap-10 border-[1px] border-gray-400">
             <p className="italic text-body-md">
               Criar minha loja com o site.set foi a melhor decisão para o meu
@@ -18,7 +18,7 @@ export function CustomerSection() {
               produtos à venda em poucos minutos.
             </p>
 
-            <div className="absolute bottom-10 flex items-center gap-3">
+            <div className="md:absolute bottom-10 flex items-center gap-3">
               <Image className="rounded-full border-[1px] border-blue-200" src="/Finn.jpeg" alt="" width={37} height={37} />
               <span className="flex flex-col gap-1">
                 <p>Finn Martins</p>
