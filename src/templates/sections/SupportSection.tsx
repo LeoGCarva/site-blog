@@ -1,11 +1,5 @@
 import { HeartHandshake, PaintbrushVertical, Store } from "lucide-react";
-import { PT_Sans_Caption } from "next/font/google";
 import Image from "next/image";
-
-const ptSansCaption = PT_Sans_Caption({
-  subsets: ["latin"],
-  weight: "700",
-});
 
 export function SupportSection() {
   return (
@@ -15,12 +9,12 @@ export function SupportSection() {
         <div className="container z-10 flex flex-col items-center gap-20 ">
           <span>
             <h2
-              className={`${ptSansCaption.className} leading-10 text-balance text-center text-heading-xl text-gray-100`}
+              className={`font-sans leading-10 text-balance text-center text-heading-xl text-gray-100`}
             >
               Sua loja de afiliados, simples,
             </h2>
             <h2
-              className={`${ptSansCaption.className} leading-10 text-balance text-center text-heading-xl text-gray-100`}
+              className={`font-sans leading-10 text-balance text-center text-heading-xl text-gray-100`}
             >
               do jeito que deveria ser
             </h2>

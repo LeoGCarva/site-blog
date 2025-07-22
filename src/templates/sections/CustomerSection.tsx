@@ -5,7 +5,7 @@ export function CustomerSection() {
     <section className="pt-32 pb-40">
       <div className="container flex flex-col gap-12">
         <span>
-          <h2 className="flex flex-col items-center justify-center text-gray-100 text-heading-xl">
+          <h2 className="font-sans flex flex-col items-center justify-center text-gray-100 text-heading-xl">
             Quem utiliza, aprova!
           </h2>
         </span>

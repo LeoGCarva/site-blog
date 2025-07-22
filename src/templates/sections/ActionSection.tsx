@@ -1,5 +1,5 @@
 import { ArrowRight, StoreIcon } from "lucide-react";
-import { Button } from "./ui/button";
+import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
 export function ActionSection() {
@@ -10,8 +10,8 @@ export function ActionSection() {
       </span>
       <div className="container pt-9 md:pt-20 pb-20 flex flex-col gap-12 text-gray-100 items-center justify-center">
         <span className="flex flex-col items-center text-heading-md md:text-heading-xl">
-          <h2 className="text-justify">Crie uma loja online e inicie</h2>
-          <h2 className="text-justify">suas vendas ainda hoje</h2>
+          <h2 className="font-sans text-justify">Crie uma loja online e inicie</h2>
+          <h2 className="font-sans text-justify">suas vendas ainda hoje</h2>
         </span>
 
         <Button className="rounded-full w-fit" asChild>

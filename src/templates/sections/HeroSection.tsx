@@ -1,5 +1,5 @@
 import { ArrowRight, Clock, Store } from "lucide-react";
-import { Button } from "./ui/button";
+import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -8,7 +8,7 @@ export function HeroSection() {
     <section className="relative flex items-center justify-center mt-5">
       <div className="container mt-16 md:mt-0 md:ml-[22.5rem] flex flex-col w-[50rem] text-center md:flex-row md:text-start gap-8 min-h-[20rem] md:h-[36rem] items-center">
         <div className="flex flex-col items-center justify-center gap-6 md:items-start lg:items-start">
-          <h1 className="text-gray-100 text-heading-hg">
+          <h1 className="text-gray-100 text-heading-hg font-sans">
             Venda seus produtos como afiliado em um únivo lugar
           </h1>
 
